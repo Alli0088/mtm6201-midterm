@@ -29,41 +29,69 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-@media screen and (max-width: 1248px){
+@media screen and (min-width: 1035px){
     /* Styles applied below width*/
-    .glasses{
-        float: right;
-        width: 100px;
-        height: 700px;
+    .mininav {
+        display: none;
     }
 
-    .Lenses{
-        width: 550px;
+}
+
+@media screen and (max-width: 1035px){
+    /* Styles applied below width*/
+
+    .nav {
+        display: none;
+    }
+
+    header{
+        background-color:bisque;
+        padding-bottom: 3px;
+    }
+
+    .mininav {
         float: right;
+        padding-right: 50px;
+        padding-top: 30px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .Img1 {
+        overflow: hidden;
+        height: 100px;
+        width: 942px;
+        margin-right: 40px;
+    }
+
+    .glasses{
+        width: 100px;
+    }
+
+    .Img2 {
+        overflow: hidden;
+        height: 200px;
+        width: 300px;
+    }
+
+    .Img2{
+        display: none;
+    }
+
+    .title{
+        
+     
+    }
+
+    .text{
+        
     }
 
   }
 
   @media screen and (max-width: 1128px){
-    .glasses{
-        float: right;
-        width: 50px;
-        height: 700px;
-        overflow: hidden;
-    }
 
-    .Lenses{
-        width: 550px;
-        float: right;
     }
-    }
-
-.container{
-    background-color: rgb(255, 188, 100);
-    margin-left: 30px;
-    margin-right: 30px;
-    position: static;
-}
 
 header{
     background-color:bisque;
@@ -193,6 +221,7 @@ p{
         float: left;
         padding-top: 30px;
         width: 750px;
+
 }
 
 

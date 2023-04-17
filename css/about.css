@@ -68,6 +68,38 @@ h1 {
     }
   }
 
+  @media screen and (min-width: 1035px){
+    .S{
+    display: none;  
+    }
+
+    .mininav {
+        display: none;
+    }
+}
+  
+
+
+@media screen and (max-width: 1035px){
+    /* Styles applied below width*/
+
+    .mininav {
+    width: 100px;
+    height: 100px;
+
+    padding-left: 750px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+.J {
+    display: none
+}
+
+}
+
 nav{
     text-align: right;
     text-decoration: none;
